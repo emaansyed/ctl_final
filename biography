@@ -27,7 +27,7 @@ Professor Dearborn's feedback can be found at :https://emaansyed.github.io/ctl_f
 
 
 ###Refinement
-I incorporated user feedback into refining the app, making the app user-friendly and fixing spelling mistakes. I had not originally included a fax coversheet in my first app, so I had to re-do many of my PDFs that were automated to include the fax coversheet in a single PDF. The Phaxio app cannot fax multiple PDFs, so the fax coversheet must be in the same PDF.
+I incorporated user feedback into refining the app, making the app user-friendly by bolding certain key words in questions and fixing spelling mistakes. I had not originally included a fax coversheet in my first app, so I had to re-do many of my PDFs that were automated to include the fax coversheet in a single PDF. The Phaxio app cannot fax multiple PDFs, so the fax coversheet must be in the same PDF.
 
 
 ##Intro Pitch
