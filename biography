@@ -20,8 +20,8 @@ I began automating the Suffolk Defenders HIPAA form, and the Suffolk Juvenile De
 After perfecting my technique, I began to incorporate feedback before I continued automating the more complicated hospital forms.
 
 ##User Testing
-I created my app and sent it out to clinic students (the main end user) for their feedback to be filled out in a google form. 
-I also submitted my form to Professor Dearborn for his feedback on the first version of the app.
+I created my app and sent it out to clinic students (the main end user) for their feedback to be filled out in a google form. Due to the nature of the google form, the clinic student testing feedback was anonymous.
+I also submitted my form to Professor Dearborn for his feedback on the app.
 The test user feedback can be found on:https://emaansyed.github.io/ctl_final/user_feedback
 Professor Dearborn's feedback can be found at :https://emaansyed.github.io/ctl_final/client_feedback
 
