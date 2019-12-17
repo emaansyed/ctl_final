@@ -2,3 +2,80 @@
 I created an app that will automate a HIPAA release form for the user to download through PDF and send via fax to a speficified hospital as to reduce the amount of time and manpower required in manually filling out and signing a HIPAA release form, and going back to a physical office to fax the form to the specified hospitals. User must input the required client information, and include the client's signature which can be done electronically on a phone or laptop, and send off the HIPAA release form to the medical institution of their choosing. The link to the Community Lawyer App can be found at https://emaansyed.github.io/ctl_final/link
 
 ##Framing
+Professor Chris Dearborn is the clinic professor of Suffolk Defenders Clinic. Professor Dearborn had came up with the idea of automating the HIPAA form that the Defenders Clinic and Juvenile Defenders Clinic student attorneys use for HIPAA Release of medical information for clients. Usually a clinic student must manually go to their client to fill out and sign a HIPAA form, then go back to the clinic office and fax the form to a specific hospital, and usually physically go to the hosipital to obtain the medical information. In the Juvenile Defenders Clinic, an extra layer is added to the form with a requirement for a parent signature, which could add another day to the process to track down a parent that was not present at court. The whole process takes hours for clinic students and has a lot of potential for automation and ease on the users.
+Professor Dearborn also thought about having this app used not only clinic-wide, but throughout the state for any attorney with low-income clients to use.
+I created an app to allow for the form to be accessed on phone or computer, and for the user to have their clients sign the form in person, perhaps at the court, from the touch screen of their phone. The app then can be faxed to a hospital from the app using phaxio through zapier, the app can also be downloaded and emailed to the user for record-keeping. The app takes a total of 5minutes to complete and fax, compared to an hours-long process that could last several days to reach the client or guardian for a signature. The app also has an option to save and continue if another signature is required by a parent not present at the time the client was signing.
+
+##Research
+First I met with Professor Dearborn to see which hospitals are frequented by his clients and what facilities he normally must send out HIPAA release forms to. Professor Dearborn included the local Boston hospitals: BMC, Tufts, MGH, Brigham and Women's, Children's Hopsital, and state mental facilities such as the Lindemann Center, Bridgewater State Hospital, and MASAC.
+I then reached out to each hospital and mental facility listed asking if they require their patients to fill out a seperate HIPAA form, or if the Suffolk Clinic HIPAA form was acceptable to use.
+Some hospitals asked for me to email the Suffolk Defenders form for review to see if they would take the clinic form, others just asked if the essentials of HIPAA release were included on the clinic form, including patient name, DOB, signature, end date of medical release, type of information to be released.
+Outside of the large hospitals, the mental facilities would take the generic Suffolk Defenders HIPAA form, so I essentially needed to automate each large Hospital HIPAA form, a form from each of the clinics, and a generic HIPAA form for use for attorneys outside of the Suffolk Clinics. After speaking with each hospital, I compiled a list of forms I needed to automate.
+Before I began autmoating, there was a question of whether the social security number was required on the HIPAA release form. The Suffolk Defenders and Juvenile Defenders both had options to include the social security number, while the hospital forms did not. Including the social security number would add an extra layer of complicated security protocol to my app, so I then called every hospital from before asking if a social security number is required. Each hospital and mental health facility I spoke with replied that the patient social security number was not required. After speaking with Professor Dearborn and Professor Colarusso, I decided to include an option to fill in the client's social security number, and not having to go through the extra security protocalls that would be in place if the social security number was to be included.
+
+##Ideation & Prototyping
+I first created a gmail account called HIPAAFORMAPP@gmail.com to create accounts and work on my project. I then used that account to create a community lawyer account to create the app, and a Zapier account and Phaxio account to automate the app to fax to a hospital via email. 
+For the PDF form automation, I narrowed my options to Community Lawyer and DocAssemble. DocAssemble was not as user-friendly as Community Lawyer, and after having more experience and familiarity with Community Lawyer, I chose to create the form through their website.
+I began automating the Suffolk Defenders HIPAA form, and the Suffolk Juvenile Defenders forms, as these had the lease amount of work to be accomplished, and allowed me to fully understand the use of text boxes, checkboxes, commands, signature feature, pdf download, email attatchments and overall function of the website. I then linked my Community Lawyer account with my Zapier account and Phaxio account. The email to send a fax is hipaafax.3eaqne@zapiermail.com, the subject line must include the fax number of the hospital with not dashes. I automated each form to automatically prompt an email to send to a specific hospital fax number, or to manually enter the fax number for a different medical center.
+After perfecting my technique, I began to incorporate feedback before I continued autmoating the more complicated Hospital forms.
+
+##User Testing
+I created my first version of the app and sent it out to clinic students (the main end user) for their feedback to be filled out in a google form. 
+I also submitted my form to Professor Dearborn for his feedback on the first version of the app.
+The test user feedback can be found on:https://pgenovese95.github.io/ctl_final/user_feedback
+Professor Dearborn's feedback can be found at :https://pgenovese95.github.io/ctl_final/client_feedback
+
+
+###Refinement
+Each time the bot was tested I had the users fill out a standard form I created that can be found in the ctl final repo 
+under "Feedback Form" I would review the form soon after it was done and clarify certain questions they had or suggestions they offered. 
+Then I would implement the changes they suggested thatalso would help reach the goal. I started with a simple bot. Then I 
+added javascript and additional resources. Finally I created a function that would allow the user to get documentation of the 
+important information LG_Prime gathered. After three rounds of user testing and over 70 mark up file variations, LG_Prime is one fixed
+bug away from being perfect for Lisa Gilligan.
+
+
+##Intro Pitch
+The PowerPoint used for my intro pitch can be found at:https://pgenovese95.github.io/ctl_final/Solo Practitioner, You are not alone.pptx
+For my pitch I focused on telling the story of the client. This kept everyone's fous on the "why" rather than the "what" 
+which is the most important.
+
+
+##Complexity/Robustness
+This an extremely robust QnA, which has multiple choice, fill in the balnks, reference call backs, embedded links, 
+javascript features including document creation and more.
+
+##Impact & Efficiencies
+Because this product was only recently released, it is impossible to tell right now how effective it will truly be. However by
+comparing the old process to using LG_Prime, Lisa Gilligan will now save approximately 25 minutes with each client that uses LG_Prime
+and she will never have to fill out "that damn form" again if she doesnt want to. Save her time means she can either take on more clients,
+focus on more complex issues, or simply spend more time with her family and get a chance to breathe! A laywer's happiness is important 
+too. 
+
+
+##Fit/Completeness
+This bot set out to enable Lisa Gilligan to have more time in her day. For that to happen the bot would have to be prototyped, tested,
+and refined over 70 times in order to be a relaible tool. As it stands now, it cuts down on client intake by roughtly 25 
+minutes per client. The bot has been scrubbed of confusing legalese and clear definitions have been implemented into the smooth flow
+of use. This bot has accomplished the goals of my client.
+
+
+##Documentation
+I have addressed all of the user concerns from the user testing. I have cut down on all unecessary legalese. The bot flows beautifully. 
+Client users will be able to understand what they are being asked and also become comfortable with this portion of the estate planning
+process. My partner would easily be able to dive in and change language once getting additional feedback if necessary and also recieve 
+LG_Prime-gathered information in a digestable way to help her implement the information seemlessly into her representation.
+
+##Real World Viability
+This QnA is very close to being ready. The QnA itself works and will give clients valuable resources and save Mrs. Gilligan time and get 
+more clients, but the document that is created at the end for the user has a minor bug that inputs an answer twice near the bottom. As of
+now, this bug has not been resolved. It is the only thing holding this back from being client ready.
+
+##Sustainability
+This bot will be only as good as its latest update. Unfortunately, Probate laws, procedures, and forms are subject to change. Luckily,
+the QnA is flexible and implementing new forms or new rules will be simple so long as the person implementing the change is familiar
+with QnA.
+  
+
+ 
+ 
