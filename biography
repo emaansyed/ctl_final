@@ -22,21 +22,16 @@ After perfecting my technique, I began to incorporate feedback before I continue
 ##User Testing
 I created my first version of the app and sent it out to clinic students (the main end user) for their feedback to be filled out in a google form. 
 I also submitted my form to Professor Dearborn for his feedback on the first version of the app.
-The test user feedback can be found on:https://pgenovese95.github.io/ctl_final/user_feedback
-Professor Dearborn's feedback can be found at :https://pgenovese95.github.io/ctl_final/client_feedback
+The test user feedback can be found on:https://emaansyed.github.io/ctl_final/user_feedback
+Professor Dearborn's feedback can be found at :https://emaansyed.github.io/ctl_final/client_feedback
 
 
 ###Refinement
-Each time the bot was tested I had the users fill out a standard form I created that can be found in the ctl final repo 
-under "Feedback Form" I would review the form soon after it was done and clarify certain questions they had or suggestions they offered. 
-Then I would implement the changes they suggested thatalso would help reach the goal. I started with a simple bot. Then I 
-added javascript and additional resources. Finally I created a function that would allow the user to get documentation of the 
-important information LG_Prime gathered. After three rounds of user testing and over 70 mark up file variations, LG_Prime is one fixed
-bug away from being perfect for Lisa Gilligan.
+I incorporated user feedback into refining the app, making the app user-friendly and fixing spelling mistakes. I had not originally included a fax coversheet in my first app, so I had to re-do many of my PDFs that were automated to include the fax coversheet in a single PDF. The Phaxio app cannot fax multiple PDFs, so the fax coversheet must be in the same PDF.
 
 
 ##Intro Pitch
-The PowerPoint used for my intro pitch can be found at:https://pgenovese95.github.io/ctl_final/Solo Practitioner, You are not alone.pptx
+The PowerPoint used for my intro pitch can be found at:https://emaansyed.github.io/ctl_final/pitch, You are not alone.pptx
 For my pitch I focused on telling the story of the client. This kept everyone's fous on the "why" rather than the "what" 
 which is the most important.
 
