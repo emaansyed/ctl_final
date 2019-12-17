@@ -20,7 +20,7 @@ I began automating the Suffolk Defenders HIPAA form, and the Suffolk Juvenile De
 After perfecting my technique, I began to incorporate feedback before I continued autmoating the more complicated Hospital forms.
 
 ##User Testing
-I created my first version of the app and sent it out to clinic students (the main end user) for their feedback to be filled out in a google form. 
+I created my app and sent it out to clinic students (the main end user) for their feedback to be filled out in a google form. 
 I also submitted my form to Professor Dearborn for his feedback on the first version of the app.
 The test user feedback can be found on:https://emaansyed.github.io/ctl_final/user_feedback
 Professor Dearborn's feedback can be found at :https://emaansyed.github.io/ctl_final/client_feedback
@@ -31,46 +31,27 @@ I incorporated user feedback into refining the app, making the app user-friendly
 
 
 ##Intro Pitch
-The PowerPoint used for my intro pitch can be found at:https://emaansyed.github.io/ctl_final/pitch, You are not alone.pptx
-For my pitch I focused on telling the story of the client. This kept everyone's fous on the "why" rather than the "what" 
-which is the most important.
+The PowerPoint used for my intro pitch can be found at: https://emaansyed.github.io/ctl_final/HIPAA%20App%20presentation%20Emaan.pptx
+In my powerpoint I included the problems with the current manual form method, ideas of creation of the app, my plan, and ultimate goal for the end user to use the app and save hours of running around collecting signatures. I focused on what the issue was, my plan to solve it, and ultimately what the app is envisioned to become.
 
 
 ##Complexity/Robustness
-This an extremely robust QnA, which has multiple choice, fill in the balnks, reference call backs, embedded links, 
-javascript features including document creation and more.
+The Community Lawyer app is robust and complex, espesially when incorporating the Hospital HIPAA release forms, and including email and download, while decreaing the amount of times user must repeat information. I strived to create the least amount of question and signature black for all the apps, so most apps can share the same question blocks, for ease of the next individual to takeover the community lawyer app and provide any maintenence if necessary.
 
 ##Impact & Efficiencies
-Because this product was only recently released, it is impossible to tell right now how effective it will truly be. However by
-comparing the old process to using LG_Prime, Lisa Gilligan will now save approximately 25 minutes with each client that uses LG_Prime
-and she will never have to fill out "that damn form" again if she doesnt want to. Save her time means she can either take on more clients,
-focus on more complex issues, or simply spend more time with her family and get a chance to breathe! A laywer's happiness is important 
-too. 
-
+Due to the product's infancy, outside of testing, this app has yet to be used in the real world to send emails and faxes. However, the app does allow for a PDF download of the completed form, currently students can save the form and send the form through their email accounts on their form instead of waiting on an account with Community Lawyer and Phaxio to get funded. Once the account recieve funding, the fax feature will be available to the clinic users.
 
 ##Fit/Completeness
-This bot set out to enable Lisa Gilligan to have more time in her day. For that to happen the bot would have to be prototyped, tested,
-and refined over 70 times in order to be a relaible tool. As it stands now, it cuts down on client intake by roughtly 25 
-minutes per client. The bot has been scrubbed of confusing legalese and clear definitions have been implemented into the smooth flow
-of use. This bot has accomplished the goals of my client.
+The HIPAA App has cut down the time required to fill out a HIPAA form, have a client and or guardian sign the form, and fax the HIPAA form from hours to under 5 minutes total. My client wanted an app that would automate the HIPAA form, with the ability for clients to sign on the phone in places such as a courtroom, and to save time from going to a physical place to fax the HIPAA Realease to hospitals. The HIPAA Release App has accomplished the goals of my client.
 
 
 ##Documentation
-I have addressed all of the user concerns from the user testing. I have cut down on all unecessary legalese. The bot flows beautifully. 
-Client users will be able to understand what they are being asked and also become comfortable with this portion of the estate planning
-process. My partner would easily be able to dive in and change language once getting additional feedback if necessary and also recieve 
-LG_Prime-gathered information in a digestable way to help her implement the information seemlessly into her representation.
+All documentation of the app is on here, the link to the community lawyer app is here: https://emaansyed.github.io/ctl_final/link
 
 ##Real World Viability
-This QnA is very close to being ready. The QnA itself works and will give clients valuable resources and save Mrs. Gilligan time and get 
-more clients, but the document that is created at the end for the user has a minor bug that inputs an answer twice near the bottom. As of
-now, this bug has not been resolved. It is the only thing holding this back from being client ready.
+Due to the funds requirement from both Community Lawyer to send an email, and Phaxio to send a fax, I have not been able to test out the app until Suffolk can fund the app to test out the product. Once funded, the app will take a manual task that took hours out of the day, to a simple form that can be signed online in under 5 minutes. The app can be used by other lawyers with low-income clients, however the Suffolk Law Clinic department would have to decide if they would be ok with funding for the email and faxing of forms outside of Suffolk clinic clients. However, a free version can still be included in which any user no matter their affiliation can at least download the completed PDF on their phone or computer and fax on their own, or use their own email faxing service.
+Professor Dearborn will be emailing Professor Colarrusso later on Wednesday night his letter of satisfaction.
 
 ##Sustainability
-This bot will be only as good as its latest update. Unfortunately, Probate laws, procedures, and forms are subject to change. Luckily,
-the QnA is flexible and implementing new forms or new rules will be simple so long as the person implementing the change is familiar
-with QnA.
-  
-
- 
- 
+There will be a fund requirement, an initial funding of $500 split to Community Lawyer and Phaxio could cover over 1-3 years worth of clinic HIPAA Release email and faxing. This app is run via Community Lawyer account, Zapier Account, Phaxio Account, and the specified Gmail account. The app can be continued to be minimally maintained or added to by whomever has access to the account information. The App could be given to a third party that has a larger funding for access to legal justice which can fund the app emailing and faxing and allow all Law clinics and lawyers in the Boston area to utilize for free. The App can also just be used by Suffolk Law clinic students until further funding for attorneys outside the university to utilize is managed.
+Professor Dearborn will be emailing Professor Colarrusso later on Wednesday night his plans for continued upkeep of the app.
